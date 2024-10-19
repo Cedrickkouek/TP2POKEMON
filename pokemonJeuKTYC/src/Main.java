@@ -2,7 +2,7 @@ import java.util.ArrayList;
 import java.util.Random;
 import java.util.Scanner;
 
-public class App {
+public class Main {
     public static void main(String[] args) throws Exception {
 
         Scanner scanner =  new Scanner(System.in);
@@ -91,7 +91,7 @@ public class App {
         if (optionMenu == 1) {
 
             System.out.print("Veuillez entrer le nom de votre pokemon: ");
-            nomPokemon = scanner.nextLine();
+            nomPokemon = scannerText.nextLine();
             System.out.println();
             System.out.println();
             do {
